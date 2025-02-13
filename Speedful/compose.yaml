@@ -1,0 +1,6 @@
+﻿services:
+  speedful:
+    image: speedful
+    build:
+      context: .
+      dockerfile: Dockerfile
